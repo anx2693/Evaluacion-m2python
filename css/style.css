@@ -2,4 +2,16 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body{
+    background: #401ca3;
+background: linear-gradient(209deg,rgba(64, 28, 163, 0.93) 10%, rgba(6, 6, 92, 0.9) 55%, rgba(51, 242, 245, 0.94) 100%);
+}
+
+.parrafo{
+    margin: 10px;
+   color: white; 
+    
 }

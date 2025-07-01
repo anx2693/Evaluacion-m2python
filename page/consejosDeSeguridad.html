@@ -3,9 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
     <title>ConsejosDeSeguridad</title>
 </head>
 <body>
-    
+     <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ciberseguridad</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="amenazas-comunes.html">Amenazas Comunes</a></li>
+                <li class="nav-item"><a class="nav-link" href="consejosDeSeguridad.html">Consejos de seguridad</a></li>
+                <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+ </header>
+ <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Proteccion de contraseñas
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+    Utiliza contraseñas fuertes y únicas para cada cuenta.<br>
+    Considera usar un administrador de contraseñas para generar y almacenar contraseñas seguras.<br>
+    Activa la autenticación de dos factores siempre que sea posible para una capa adicional de seguridad. 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Sofware y actualizaciones
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Mantén tu sistema operativo y todos tus programas actualizados con las últimas versiones de seguridad.<br>
+        Utiliza un software antivirus y un firewall para proteger tus dispositivos. 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Correo electronico y enlaces
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Ten cuidado con los correos electrónicos y enlaces sospechosos, especialmente aquellos que solicitan información personal o financiera. <br>
+        Evita hacer clic en enlaces desconocidos y verifica la legitimidad de los remitentes.<br> 
+        No abras archivos adjuntos sospechosos o de fuentes desconocidas. 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFort">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFort" aria-expanded="false" aria-controls="collapseFort">
+        Navegación segura
+      </button>
+    </h2>
+    <div id="collapseFort" class="accordion-collapse collapse" aria-labelledby="headingFort" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Visita solo sitios web seguros (aquellos con HTTPS).<br> 
+        Evita descargar archivos o programas de sitios web no confiables. <br>
+        Si necesitas usar Wi-Fi pública, considera utilizar una VPN para cifrar tu conexión.  
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFife">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFife" aria-expanded="false" aria-controls="collapseFife">
+        Otras recomendaciones
+      </button>
+    </h2>
+    <div id="collapseFife" class="accordion-collapse collapse" aria-labelledby="headingFife" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Realiza copias de seguridad periódicas de tus datos importantes. <br>
+       Apaga Bluetooth y Wi-Fi cuando no los estés usando, especialmente en lugares públicos. <br>
+       Mantente informado sobre las últimas amenazas y prácticas de ciberseguridad. <br>
+       Si trabajas de forma remota, asegúrate de tener una conexión segura y protege tus dispositivos.  
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"> </script>
+
 </body>
+  
+
 </html>
